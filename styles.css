@@ -1,0 +1,21 @@
+/*
+  Sheridan Dela Cruz
+  CSD 340
+  Assignment 6.3
+  July 2, 2026
+  Description: This stylesheet provides basic layout and typography styling for my CSD 340 bioSite Web Development Project.
+*/
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+div {
+  margin-bottom: 20px;
+}
