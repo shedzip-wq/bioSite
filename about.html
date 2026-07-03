@@ -13,17 +13,53 @@
   <title>bioSite | About</title>
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <h1>About</h1>
 
-  <h2>Biography</h2>
-  <div>
-    <p>Write a short biography here.</p>
-  </div>
+  <!-- Top navigation bar -->
+  <header class="top-bar">
+    <h3 class="nav">
+      <a href="index.html">Home</a> |
+      <a href="about.html">About</a> |
+      <a href="hobbies.html">Hobbies</a>
+    </h3>
+  </header>
 
-  <h3>Back to Home</h3>
-  <div>
-    <a href="index.html">Return to Home</a>
-  </div>
+  <main>
+
+    <!-- Page headline -->
+    <h1>About</h1>
+
+    <!-- Section heading -->
+    <h2>Biography</h2>
+
+    <!-- 
+      Two-column layout:
+      Left = portrait placeholder
+      Right = 3-paragraph bio text block
+    -->
+    <section class="about-layout">
+
+      <!-- Portrait placeholder -->
+      <div class="portrait">
+        <div class="portrait-placeholder">Portrait Image</div>
+      </div>
+
+      <!-- Bio text block -->
+      <div class="bio-text">
+        <p>Paragraph 1 goes here.</p>
+        <p>Paragraph 2 goes here.</p>
+        <p>Paragraph 3 goes here.</p>
+      </div>
+
+    </section>
+
+    <!-- Optional pull quote -->
+    <section class="pull-quote">
+      <blockquote>“I love building things.”</blockquote>
+    </section>
+
+  </main>
+
 </body>
 </html>
